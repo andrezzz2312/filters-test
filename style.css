@@ -55,6 +55,7 @@ iframe {
 }
 .der {
 	width: 70%;
+	margin-top: 2%;
 }
 #cardBorder::before {
 	content: '';
@@ -106,7 +107,7 @@ model-viewer {
 	justify-content: space-between;
 	margin: 1em;
 	z-index: 150;
-	font-size: calc(5px + (25 - 5) * ((100vw - 320px) / (1440 - 320)));
+	font-size: calc(7px + (15 - 7) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .attribution h1 {
